@@ -9,6 +9,10 @@ class Proxy(object):
 		proxyDict = { 
               "http"  : Config.getProxy()
             }
+		//This can also be done without using this scrapping.
+		/* 
+			http://172.31.9.69/dc/api/proxy this will return the json reply with all list of IPS
+		*/
 		page=requests.get("http://172.31.9.69/dc/proxy.php",proxies=proxyDict)
 		if page.status_code == 200:
 			soup=BeautifulSoup(page.content,'html.parser')
