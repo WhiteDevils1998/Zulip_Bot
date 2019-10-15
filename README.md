@@ -75,8 +75,3 @@ Kaleen Bhayia bot can :-
 3. IDE Utilities :- Android Studio, Sublime TextEditor
 4. Wit.ai -: Easily create text or voice based bots that humans can chat with on their preferred messaging platform (NLP).
 
-## Contributors
-* [Aniket Kumar](https://github.com/Aniket468)  
-* [Shivam Kumar](https://github.com/shivam4035)  
-* [Utkarsh Garg](https://github.com/utkarsh22garg)  
-* [Ankit Kumar Maurya](https://github.com/mauryaankitsh)
